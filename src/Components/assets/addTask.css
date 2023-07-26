@@ -1,0 +1,62 @@
+div.addTask{
+    background-color: black;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    min-height: 150px;
+}
+
+div.addTask input,
+div.addTask button{
+    padding: 10px 20px;
+    border: 0;
+    outline: 0;
+    border-radius: 5px;
+    border: 0.5px solid #fff343;
+}
+div.addTask button{
+    color: white;
+    background: transparent;
+}
+div.addTask button:hover{
+    color: black;
+    background-color: white;
+}
+ul.list{
+    background: linear-gradient(to right, #fff343, #434543);
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+ul.list li{
+    list-style: none;
+    min-width: 300px;
+    max-width: 300px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px 0;
+    padding: 10px 20px;
+    width: 100%;
+    border: 0.1px solid #434543;
+    background:linear-gradient(to left, #000,#fff);
+    border-radius: 5px;
+}
+ul.list li button{
+    background: transparent;
+    color: white;
+    outline: 0;
+    border: 0;
+    height: 100%;
+    padding: 10px 20px;
+}
+ul.list li button:hover{
+    transform: scale(1.1);
+    font-weight: bold;
+    background:  linear-gradient(to right, #fff343, #434543);
+    color: black;
+    border-radius: 5px;
+}
